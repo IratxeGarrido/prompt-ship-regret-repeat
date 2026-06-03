@@ -1,0 +1,15 @@
+{
+  "name": "prompt-ship-regret-repeat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.9",
+    "@slidev/theme-default": "*",
+    "slidev-theme-unicorn": "^1.1.2"
+  }
+}

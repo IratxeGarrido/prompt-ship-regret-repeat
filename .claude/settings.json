@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(npm install *)",
+      "Bash(grep -r '$slidev' /Users/akela/Documents/presentations/prompt-ship-regret-repeat/node_modules/@slidev/client/composables/)",
+      "Bash(grep -rn '$slidev' /Users/akela/Documents/presentations/prompt-ship-regret-repeat/node_modules/@slidev/client/)",
+      "Bash(grep -n \"duck-dating-apps-icon\\\\|screen.png\\\\|^---$\" /Users/akela/Documents/presentations/prompt-ship-regret-repeat/slides.md)",
+      "Bash(sips -g pixelWidth -g pixelHeight duck-dating-apps-icon.png duck-left.png duck-right.png)",
+      "Bash(python3 -c \"from PIL import Image; print\\('PIL ok'\\)\")",
+      "Bash(magick duck-dating-apps-icon.png -alpha extract -threshold 1% -format \"%@\" info:)",
+      "Bash(magick duck-left.png -alpha extract -threshold 1% -format \"%@\" info:)",
+      "Bash(magick duck-right.png -alpha extract -threshold 1% -format \"%@\" info:)",
+      "Bash(magick duck-dating-apps-icon.png -crop 516x396+67+123 +repage duck-dating-apps-icon.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight duck-dating-apps-icon.png)"
+    ],
+    "additionalDirectories": [
+      "/Users/akela/.claude/projects/-Users-akela-Documents-presentations-prompt-ship-regret-repeat"
+    ]
+  }
+}

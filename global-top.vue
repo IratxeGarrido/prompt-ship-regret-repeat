@@ -2,7 +2,7 @@
   <footer
     v-if="currentPage !== 1"
     class="absolute bottom-0 left-0 right-0 grid grid-cols-[auto_1fr_auto] items-center gap-6 border-t px-8 py-2 text-xs font-semibold uppercase tracking-wider pointer-events-none"
-    :class="isWhiteSection ? 'border-fuchsia-200 text-fuchsia-700' : currentSlideRoute.meta?.layout === 'new-section' ? 'border-white/25 text-white' : 'border-fuchsia-200 text-fuchsia-700 dark:border-white/20 dark:text-white'"
+    :class="isWhiteSection ? 'border-fuchsia-200 text-fuchsia-700' : (isDarkSection || currentSlideRoute.meta?.layout === 'new-section') ? 'border-white/25 text-white' : 'border-fuchsia-200 text-fuchsia-700 dark:border-white/20 dark:text-white'"
   >
     <span>{{ configs.title }}</span>
     <div class="relative h-9 w-full">
@@ -11,7 +11,7 @@
         alt=""
         class="absolute right-0 top-1/2 h-9 w-auto -translate-y-1/2"
       />
-      <div v-if="!isLastSlide" class="absolute inset-y-0 left-0" style="right: 2.5rem">
+      <div v-if="!isLastSlide" class="absolute inset-y-0 left-0" style="right: 0">
         <img
           src="/duck-left.png"
           alt=""
@@ -52,6 +52,13 @@ const isWhiteSection = computed(() => {
   return Array.isArray(slideClass)
     ? slideClass.includes("dda-section-white")
     : `${slideClass ?? ""}`.includes("dda-section-white");
+});
+
+const isDarkSection = computed(() => {
+  const slideClass = currentSlideRoute.value?.meta?.class;
+  return Array.isArray(slideClass)
+    ? slideClass.includes("beat-divider")
+    : `${slideClass ?? ""}`.includes("beat-divider");
 });
 
 const isLastSlide = computed(() => currentPage.value === total.value);

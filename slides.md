@@ -138,6 +138,35 @@ introImage: 'https://iratxegarrido.github.io/assets/img/iratxe.jpeg'
 <p v-click class="mt-8 max-w-3xl text-base font-semibold italic text-fuchsia-700">AI helps you move quickly, but you still have to know if you are moving in the right direction.</p>
 
 ---
+
+# Model, agent, skill
+
+<p class="mt-2 text-lg text-purple-900">A quick vocabulary before we get into the cycle.</p>
+
+<div class="mt-6 grid grid-cols-3 gap-4">
+  <div v-click="1" class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-5">
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">01 / Model (Hardware)</p>
+    <p class="!mb-2 text-base font-bold text-purple-900">The engine that reasons and writes.</p>
+    <p class="!mb-0 text-sm text-purple-900">Examples: GPT-5, Claude Sonnet</p>
+  </div>
+  <div v-click="2" class="rounded-2xl border-2 border-fuchsia-400 bg-fuchsia-100 p-5">
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">02 / Agent (Operating System)</p>
+    <p class="!mb-2 text-base font-bold text-purple-900">A model with tools, context and a goal.</p>
+    <p class="!mb-0 text-sm text-purple-900">Examples: Codex, Claude Code.</p>
+  </div>
+  <div v-click="3" class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-5">
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">03 / Skill (App)</p>
+    <p class="!mb-2 text-base font-bold text-purple-900">A reusable workflow for a specific task.</p>
+    <p class="!mb-0 text-sm text-purple-900">Examples: Analyze this unfamiliar codebase, feature planner.</p>
+  </div>
+</div>
+
+<p v-click="4" class="mt-6 text-center text-xl font-bold text-fuchsia-700">
+  MODEL <span class="mx-3 font-normal text-gray-400">powers</span> AGENT <span class="mx-3 font-normal text-gray-400">uses</span> SKILL
+</p>
+
+
+---
 class: beat-divider
 ---
 
@@ -184,35 +213,6 @@ class: beat-divider
 </style>
 
 ---
-
-# Model, agent, skill
-
-<p class="mt-2 text-lg text-purple-900">A quick vocabulary before we get into the cycle.</p>
-
-<div class="mt-6 grid grid-cols-3 gap-4">
-  <div v-click="1" class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-5">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">01 / Model (Hardware)</p>
-    <p class="!mb-2 text-base font-bold text-purple-900">The engine that reasons and writes.</p>
-    <p class="!mb-0 text-sm text-purple-900">Examples: GPT-5, Claude Sonnet</p>
-  </div>
-  <div v-click="2" class="rounded-2xl border-2 border-fuchsia-400 bg-fuchsia-100 p-5">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">02 / Agent (Operating System)</p>
-    <p class="!mb-2 text-base font-bold text-purple-900">A model with tools, context and a goal.</p>
-    <p class="!mb-0 text-sm text-purple-900">Examples: Codex, Claude Code.</p>
-  </div>
-  <div v-click="3" class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-5">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">03 / Skill (App)</p>
-    <p class="!mb-2 text-base font-bold text-purple-900">A reusable workflow for a specific task.</p>
-    <p class="!mb-0 text-sm text-purple-900">Examples: Analyze this unfamiliar codebase, feature planner.</p>
-  </div>
-</div>
-
-<p v-click="4" class="mt-6 text-center text-xl font-bold text-fuchsia-700">
-  MODEL <span class="mx-3 font-normal text-gray-400">powers</span> AGENT <span class="mx-3 font-normal text-gray-400">uses</span> SKILL
-</p>
-
-
----
 layout: new-section
 class: dda-section-phone dda-section-white
 sectionImage: '/dda-login.png'
@@ -222,13 +222,12 @@ sectionImage: '/dda-login.png'
 
 # Duck Dating Apps
 
-<p class="mt-4 ml-auto max-w-sm text-lg font-semibold leading-relaxed text-purple-900">The product I was building while learning how to work with AI: a dating app plus live events, matching logic and real users.</p>
+<p class="mt-4 ml-auto max-w-sm text-lg font-semibold leading-relaxed text-purple-900">A protest to the current Tinderisation of dating.</p>
 
 <div class="mt-6 ml-auto flex max-w-sm flex-wrap justify-end gap-2">
-  <span class="rounded-full bg-fuchsia-100 px-3 py-1 text-xs font-semibold text-fuchsia-800">Personal data</span>
-  <span class="rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-800">Matching logic</span>
-  <span class="rounded-full bg-fuchsia-100 px-3 py-1 text-xs font-semibold text-fuchsia-800">Live events</span>
-  <span class="rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-800">Real people</span>
+  <span class="rounded-full bg-fuchsia-100 px-3 py-1 text-xs font-semibold text-fuchsia-800">In-person dating</span>
+  <span class="rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-800">Curated matching</span>
+  <span class="rounded-full bg-fuchsia-100 px-3 py-1 text-xs font-semibold text-fuchsia-800">Small groups</span>
 </div>
 
 <p class="mt-6 ml-auto max-w-sm border-l-4 border-fuchsia-500 pl-4 text-sm font-semibold text-purple-900">A useful place to learn, because AI mistakes do not stay abstract when people are affected by the product.</p>
@@ -246,7 +245,7 @@ sectionImage: '/dda-login.png'
       <p class="!mb-1 text-sm font-bold text-purple-900">Romantic > Mixed > Social</p>
       <p class="!mb-0 text-xs leading-relaxed text-purple-900">Mutual romantic interest gets highest priority, then mixed, then social, then one way interests.</p>
     </div>
-    <div class="rounded-2xl border-2 border-fuchsia-400 bg-fuchsia-100 p-4">
+    <div v-click="1" class="rounded-2xl border-2 border-fuchsia-400 bg-fuchsia-100 p-4">
       <p class="!mb-1 text-xs font-bold uppercase tracking-widest text-fuchsia-600">02 / Build Rounds</p>
       <p class="!mb-1 text-sm font-bold text-purple-900">Everyone gets 5 dates.</p>
       <p class="!mb-0 text-xs leading-relaxed text-purple-900">The algorithm creates 5 short dates per person, balancing preferences, compatibility, and fairness.</p>
@@ -258,41 +257,12 @@ sectionImage: '/dda-login.png'
       <p class="!mb-2 text-center text-xs font-bold uppercase tracking-widest text-fuchsia-600">Interests</p>
       <img :src="'/dda-interests.png'" alt="Duck Dating Apps interests screen" class="mx-auto h-[18rem] rounded-[1.4rem] border-[0.35rem] border-gray-900 bg-gray-900 object-cover shadow-xl" />
     </div>
-    <div>
+    <div v-click="1">
       <p class="!mb-2 text-center text-xs font-bold uppercase tracking-widest text-fuchsia-600">Rounds</p>
       <img :src="'/dda-rounds.png'" alt="Duck Dating Apps rounds schedule screen" class="mx-auto h-[18rem] rounded-[1.4rem] border-[0.35rem] border-gray-900 bg-gray-900 object-cover shadow-xl" />
     </div>
   </div>
 </div>
-
----
-
-# How I prompt now
-
-<p class="mt-2 text-lg font-semibold text-purple-900">Most of the work happens before a single line of code is written.</p>
-
-<div class="mt-6 grid grid-cols-3 gap-4">
-  <div v-click class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-5">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">01 / Clarify</p>
-    <p class="!mb-2 text-base font-bold text-purple-900">Know what I'm building.</p>
-    <p class="!mb-0 text-sm text-purple-900">Requirements before code. If I cannot describe it, the model cannot build it.</p>
-  </div>
-  <div v-click class="rounded-2xl border-2 border-fuchsia-400 bg-fuchsia-100 p-5">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">02 / Invert</p>
-    <p class="!mb-2 text-base font-bold text-purple-900">Let Claude question me.</p>
-    <p class="!mb-0 text-sm text-purple-900">In the brainstorming phase I ask Claude to ask <em>me</em> questions until the spec is sharp.</p>
-  </div>
-  <div v-click class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-5">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">03 / Scope</p>
-    <p class="!mb-2 text-base font-bold text-purple-900">Small features, small iterations.</p>
-    <p class="!mb-0 text-sm text-purple-900">Narrow the surface area until I can hold the whole change in my head.</p>
-  </div>
-</div>
-
-<div v-click class="mt-6 rounded-xl border-l-4 border-fuchsia-500 bg-purple-950 px-5 py-3 text-white">
-  <p class="!m-0 text-sm font-semibold italic">A clear prompt is a tiny spec. A vague prompt is a coin flip.</p>
-</div>
-
 ---
 class: beat-divider
 ---
@@ -381,26 +351,22 @@ class: beat-divider
 
 <div class="mt-6 grid grid-cols-[1fr_auto_1fr_auto_1fr] items-stretch gap-3">
   <div v-click="1" class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-4">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">01 / Wrong you can see</p>
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">01 / The one I caught</p>
     <p class="!mb-1 text-base font-bold text-purple-900">The SVG</p>
-    <p class="!mb-0 text-sm text-purple-900">One glance and I knew. Simple task, instantly verifiable.</p>
+    <p class="!mb-0 text-sm text-purple-900">That one took half a second, easy to catch.</p>
   </div>
   <div v-click="2" class="flex items-center justify-center text-2xl font-bold text-fuchsia-400">→</div>
   <div v-click="2" class="rounded-2xl border-2 border-fuchsia-400 bg-fuchsia-100 p-4">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">02 / Wrong you can't</p>
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">02 / The one I shipped</p>
     <p class="!mb-1 text-base font-bold text-purple-900">The rounds algorithm</p>
-    <p class="!mb-0 text-sm text-purple-900">Code so complex I needed AI to explain it back to me. It looked fine.</p>
+    <p class="!mb-0 text-sm text-purple-900">Same AI, same confidence. The algorithm "looked" good, so I shipped it.</p>
   </div>
   <div v-click="3" class="flex items-center justify-center text-2xl font-bold text-rose-400">→</div>
   <div v-click="3" class="rounded-2xl border-2 border-rose-300 bg-rose-50 p-4">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-rose-600">03 / Live event disaster</p>
-    <p class="!mb-1 text-base font-bold text-purple-900">Real people, real fallout</p>
-    <p class="!mb-0 text-sm text-purple-900">The bug didn't surface until humans were standing in the room.</p>
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-rose-600">03 / Then, mid-event</p>
+    <p class="!mb-1 text-base font-bold text-purple-900">Someone walked up to me</p>
+    <p class="!mb-0 text-sm text-purple-900">"Hey… something's weird with my rounds." I started panicking...</p>
   </div>
-</div>
-
-<div v-click="4" class="mt-6 rounded-xl border-l-4 border-fuchsia-500 bg-purple-950 px-5 py-3 text-white">
-  <p class="!m-0 text-sm font-semibold italic">Same confidence. The only thing that changed was whether I could see the bug before my users did.</p>
 </div>
 
 ---
@@ -411,7 +377,7 @@ class: beat-divider
 
 # Regret
 
-<p class="!mt-6 !mb-0 max-w-xl text-xl font-medium text-white/90">Two stories. Both cost me. Both taught me where judgment went missing.</p>
+<p class="!mt-6 !mb-0 max-w-xl text-xl font-medium text-white/90">Apparently matching people is not as easy as I thought...</p>
 
 <style>
 .slidev-layout.beat-divider {
@@ -451,73 +417,72 @@ class: beat-divider
 
 ---
 
-# Regret 1 — The rounds algorithm
+# The rounds algorithm
 
-<div class="mt-4 grid grid-cols-2 gap-5">
-	  <div class="rounded-2xl border-2 border-rose-300 bg-rose-50 p-5">
-	    <p class="!mb-2 text-xs font-bold uppercase tracking-widest text-rose-600">What happened</p>
-	    <div class="space-y-3 text-sm font-semibold text-purple-900">
-	      <p class="!m-0">This was the part I was most proud of.</p>
-	      <p class="!m-0">The app took interests, preferences and tables, then built five mini-dates for everyone.</p>
-	      <p class="!m-0">The schedule looked right, so I shipped it.</p>
-	      <p class="!m-0">Then we ran a real event, with real people moving through the room.</p>
-	    </div>
-	  </div>
-	  <div class="space-y-4">
-	    <div v-click class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-	      <p class="!mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">Where judgment went missing</p>
-	      <p class="!mb-0 text-sm font-semibold text-purple-900">I checked whether the output looked plausible. I did not force the awkward cases: odd groups, last available slots, repeated partners, people with very few compatible matches.</p>
-	    </div>
-	    <div v-click class="rounded-xl border-l-4 border-rose-500 bg-purple-950 px-5 py-4 text-white">
-	      <p class="!m-0 text-sm font-semibold italic">A schedule can look right and still send someone to the wrong table.</p>
-	    </div>
-	  </div>
-</div>
+<p class="mt-2 text-lg font-semibold text-purple-900">What went wrong?</p>
+
+  <div class="rounded-xl border border-fuchsia-200 bg-white/70 px-5 py-3">
+    <div class="grid grid-cols-[4rem_repeat(5,1fr)] gap-2.5 text-center text-base font-bold">
+      <div></div>
+      <div class="text-fuchsia-600">Round 1</div>
+      <div class="text-fuchsia-600">Round 2</div>
+      <div class="text-fuchsia-600">Round 3</div>
+      <div class="text-fuchsia-600">Round 4</div>
+      <div class="text-fuchsia-600">Round 5</div>
+      <div class="flex items-center text-purple-900">Anna</div>
+      <div class="rounded-md bg-rose-200 py-2 text-rose-700">Ben ↻</div>
+      <div class="rounded-md bg-amber-200 py-2 text-amber-700">Cara</div>
+      <div class="rounded-md bg-rose-200 py-2 text-rose-700">Ben ↻</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="flex items-center text-purple-900">Ben</div>
+      <div class="rounded-md bg-rose-200 py-2 text-rose-700">Anna ↻</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="rounded-md bg-rose-200 py-2 text-rose-700">Anna ↻</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="flex items-center text-purple-900">Cara</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="rounded-md bg-amber-200 py-2 text-amber-700">⚠ ×2</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="flex items-center text-purple-900">Dan</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="rounded-md bg-amber-200 py-2 text-amber-700">Cara</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+      <div class="rounded-md bg-fuchsia-100 py-2 text-fuchsia-400">✓</div>
+    </div>
+  </div>
+  <div class="mt-4 flex flex-wrap gap-x-10 gap-y-1 text-sm font-semibold leading-snug">
+    <span class="text-rose-700">↻ Same pair matched twice — Anna &amp; Ben in R1 and again in R3.</span>
+    <span class="text-amber-700">⚠ Double-booked — Anna and Dan both sent to Cara in R2.</span>
+  </div>
+
 
 ---
 
-# Regret 2 — Swarm without a leash
+# But why did this happen?
 
-<div class="mt-4 grid grid-cols-2 gap-5">
-  <div class="rounded-2xl border border-purple-200 bg-white p-4">
-    <p class="!mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">claude-swarm structure</p>
-    <div class="rounded-xl bg-purple-950 p-4 font-mono text-[0.66rem] font-semibold leading-4 text-white">
-      <div class="flex items-center gap-2 text-[0.82rem] font-bold leading-5">
-        <span class="text-fuchsia-300">⌄</span><span class="text-fuchsia-300">▰</span><span>.claude-on-rails</span>
-      </div>
-      <div class="ml-4 border-l border-fuchsia-300/30 pl-4">
-        <div class="flex items-center gap-2 text-[0.78rem] font-bold leading-5">
-          <span class="text-fuchsia-300">⌄</span><span class="text-fuchsia-300">▣</span><span>prompts</span>
-        </div>
-        <div class="ml-4 border-l border-fuchsia-300/20 pl-4 text-white">
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>api.md</span></div>
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>architect.md</span></div>
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>controllers.md</span></div>
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>devops.md</span></div>
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>graphql.md</span></div>
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>jobs.md</span></div>
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>models.md</span></div>
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>services.md</span></div>
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>stimulus.md</span></div>
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>tests.md</span></div>
-          <div class="flex items-center gap-2"><span class="text-fuchsia-300">M↓</span><span>views.md</span></div>
-        </div>
-        <div class="-ml-1 mt-1 flex items-center gap-2 rounded bg-fuchsia-300/15 px-2 py-0.5 text-white">
-          <span class="text-fuchsia-300">M↓</span><span>context.md</span>
-        </div>
-      </div>
-    </div>
-    </div>
-  <div class="space-y-4">
-    <div v-click class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-      <p class="!mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">Where judgment went missing</p>
-      <p class="!mb-0 text-sm font-semibold text-purple-900">I let the agents run wide instead of breaking the work into pieces small enough to review. More agents did not produce more progress — they produced more rope.</p>
-    </div>
-    <div v-click class="rounded-xl border-l-4 border-rose-500 bg-purple-950 px-5 py-4 text-white">
-      <p class="!m-0 text-sm font-semibold italic">If you cannot scope it for a person, do not scope it for a swarm.</p>
-    </div>
+<div class="mt-6 grid grid-cols-3 gap-4">
+  <div v-click class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-5">
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">01 / Edge cases</p>
+    <p class="!mb-2 text-base font-bold text-purple-900">I didn't check the edge cases.</p>
+    <p class="!mb-0 text-sm text-purple-900">The happy path worked on my screen, so I assumed the rest did too.</p>
+  </div>
+  <div v-click class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-5">
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">02 / Tests</p>
+    <p class="!mb-2 text-base font-bold text-purple-900">I didn't test enough.</p>
+    <p class="!mb-0 text-sm text-purple-900">No test ever tried to pair the same two people twice — so nothing caught it before the room did.</p>
+  </div>
+  <div v-click class="rounded-2xl border-2 border-rose-300 bg-rose-50 p-5">
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-rose-600">03 / The real one</p>
+    <p class="!mb-2 text-base font-bold text-purple-900">I didn't understand the algorithm 100%.</p>
+    <p class="!mb-0 text-sm text-purple-900">And if you don't fully understand the code, you can't spot its edge cases or write the tests that would catch them.</p>
   </div>
 </div>
+
 
 ---
 class: beat-divider
@@ -565,99 +530,65 @@ class: beat-divider
 }
 </style>
 
----
 
-# Habits I do now
-
-<p class="mt-2 text-lg font-semibold text-purple-900">Each habit is judgment, put back where AI tried to remove it.</p>
-
-<div class="mt-6 grid grid-cols-2 gap-4">
-  <div v-click class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-    <p class="!mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">01 / Document</p>
-    <p class="!mb-2 text-base font-bold text-purple-900">Write it down or it did not happen.</p>
-    <p class="!mb-0 text-sm text-purple-900">Every change, every feature, how the rounds algorithm actually works.</p>
-  </div>
-  <div v-click class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-    <p class="!mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">02 / Test</p>
-    <p class="!mb-2 text-base font-bold text-purple-900">More important than ever.</p>
-    <p class="!mb-0 text-sm text-purple-900">When AI writes the code, tests are the contract that proves it does what I asked.</p>
-  </div>
-  <div v-click class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-    <p class="!mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">03 / Small increments</p>
-    <p class="!mb-2 text-base font-bold text-purple-900">Tight scope. Ship narrow.</p>
-    <p class="!mb-0 text-sm text-purple-900">If I cannot hold the change in my head, I cannot review it — and neither can the next agent.</p>
-  </div>
-  <div v-click class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-    <p class="!mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">04 / Skills</p>
-    <p class="!mb-2 text-base font-bold text-purple-900">Automate the repetitive.</p>
-    <p class="!mb-0 text-sm text-purple-900">Reusable skills for the boring parts: code analysis, pr-ready, release notes.</p>
-  </div>
-</div>
-
----
-
-# Dos and don'ts
-
-<p class="mt-2 text-lg font-semibold text-purple-900">Use AI for leverage. Do not outsource judgment.</p>
-
-<div class="mt-6 grid grid-cols-2 gap-5">
-  <div v-click class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-    <p class="!mb-3 text-xs font-bold uppercase tracking-[0.28em] text-fuchsia-600">Do / Let AI accelerate</p>
-    <div class="space-y-3 text-sm font-semibold text-purple-900">
-      <p class="!m-0">+ Brainstorm features and edge cases</p>
-      <p class="!m-0">+ Plan complex work before writing code</p>
-      <p class="!m-0">+ Analyze unfamiliar code and document decisions</p>
-      <p class="!m-0">+ Automate repetitive tasks with reusable skills</p>
-    </div>
-  </div>
-  <div v-click class="rounded-2xl border-2 border-rose-300 bg-rose-50 p-5">
-    <p class="!mb-3 text-xs font-bold uppercase tracking-[0.28em] text-rose-600">Don't / Let AI decide</p>
-    <div class="space-y-3 text-sm font-semibold text-purple-900">
-      <p class="!m-0">- Trust an output just because it looks convincing</p>
-      <p class="!m-0">- Ship logic you cannot explain or verify</p>
-      <p class="!m-0">- Change matching rules without tests and review</p>
-      <p class="!m-0">- Confuse fast output with correct output</p>
-    </div>
-  </div>
-</div>
 
 ---
 
 <p class="!mb-0 text-xs font-bold uppercase tracking-[0.32em] text-fuchsia-600">Takeaway</p>
 
-# Five rules<br>I would tell past-me
+# Key learnings
+
+<p class="mt-2 text-lg font-semibold text-purple-900">If you take five things home, take these.</p>
 
 <div class="mt-8 grid grid-cols-5 gap-3">
-  <div v-click class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-3">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">01 / Document</p>
-    <p class="!mb-2 text-sm font-bold text-purple-900">Leave a trail.</p>
-    <p class="!mb-0 text-xs text-purple-900">Future-you needs to know what changed, why it changed and what the model assumed.</p>
-  </div>
   <div v-click class="rounded-2xl border-2 border-fuchsia-400 bg-fuchsia-100 p-3">
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">01 / Understand</p>
+    <p class="!mb-2 text-sm font-bold text-purple-900">If I can't explain it, I don't ship it.</p>
+    <p class="!mb-0 text-xs text-purple-900">If I can't describe what I'm building, the model can't build it right either.</p>
+    <p class="!mb-0 mt-2 border-t border-fuchsia-300 pt-2 text-[0.68rem] font-semibold text-fuchsia-700">I plan first, then have a second AI poke holes in the plan.</p>
+  </div>
+  <div v-click class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-3">
     <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">02 / Test</p>
-    <p class="!mb-2 text-sm font-bold text-purple-900">Make reality executable.</p>
-    <p class="!mb-0 text-xs text-purple-900">If the behavior matters, do not trust a screenshot, a summary or a confident answer.</p>
+    <p class="!mb-2 text-sm font-bold text-purple-900">Test, test, test, test.</p>
+    <p class="!mb-0 text-xs text-purple-900">I can't realistically read every line the AI writes — tests are how I still trust it.</p>
+    <p class="!mb-0 mt-2 border-t border-fuchsia-200 pt-2 text-[0.68rem] font-semibold text-fuchsia-700">This only gets more important, not less.</p>
   </div>
   <div v-click class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-3">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">03 / Iterate</p>
-    <p class="!mb-2 text-sm font-bold text-purple-900">Small increments.</p>
-    <p class="!mb-0 text-xs text-purple-900">Keep the change small enough that you can still understand the diff.</p>
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">03 / Scope</p>
+    <p class="!mb-2 text-sm font-bold text-purple-900">Small enough to actually read.</p>
+    <p class="!mb-0 text-xs text-purple-900">Plan the big feature, then slice it into independent, testable chunks.</p>
+    <p class="!mb-0 mt-2 border-t border-fuchsia-200 pt-2 text-[0.68rem] font-semibold text-fuchsia-700">I have a feature-planner skill that does the slicing.</p>
   </div>
   <div v-click class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-3">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">04 / Collaborate</p>
-    <p class="!mb-2 text-sm font-bold text-purple-900">Know your limits.</p>
-    <p class="!mb-0 text-xs text-purple-900">Use Claude to fill the gap, ask better questions and explain unfamiliar code back to you.</p>
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">04 / Verify</p>
+    <p class="!mb-2 text-sm font-bold text-purple-900">I run it. I don't take its word.</p>
+    <p class="!mb-0 text-xs text-purple-900">"Looks done" and "is done" aren't the same — so I check the real thing.</p>
+    <p class="!mb-0 mt-2 border-t border-fuchsia-200 pt-2 text-[0.68rem] font-semibold text-fuchsia-700">Skills: review-pr and analyze-code.</p>
   </div>
-  <div v-click class="rounded-2xl border-2 border-fuchsia-400 bg-fuchsia-100 p-3">
-    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">05 / Verify</p>
-    <p class="!mb-2 text-sm font-bold text-purple-900">Check every output.</p>
-    <p class="!mb-0 text-xs text-purple-900">The answer is not done until the code, file, test or product behavior proves it.</p>
+  <div v-click class="rounded-2xl border-2 border-fuchsia-200 bg-fuchsia-50 p-3">
+    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-fuchsia-600">05 / Document</p>
+    <p class="!mb-2 text-sm font-bold text-purple-900">Future-me forgets everything.</p>
+    <p class="!mb-0 text-xs text-purple-900">I write down what changed, why, and what has to stay true.</p>
+    <p class="!mb-0 mt-2 border-t border-fuchsia-200 pt-2 text-[0.68rem] font-semibold text-fuchsia-700">The more context the AI has about the app, the better it gets.</p>
   </div>
 </div>
 
-<div v-click class="mt-8 rounded-xl border-l-4 border-fuchsia-500 bg-purple-950 px-5 py-3 text-white">
-  <p class="!m-0 text-sm font-semibold italic">AI gives you speed. Judgment is the part you cannot outsource.</p>
-</div>
+---
+class: code-cta
+---
+
+<p class="!mb-0 text-sm font-bold uppercase tracking-[0.32em] text-fuchsia-600">Enough slides</p>
+
+# Let's look at some code
+
+<style>
+.slidev-layout.code-cta h1 {
+  font-size: 5.5rem;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  margin-top: 1rem;
+}
+</style>
 
 ---
 

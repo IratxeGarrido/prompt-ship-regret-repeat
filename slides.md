@@ -137,6 +137,10 @@ introImage: 'https://iratxegarrido.github.io/assets/img/iratxe.jpeg'
 
 <p v-click class="mt-8 max-w-3xl text-base font-semibold italic text-fuchsia-700">AI helps you move quickly, but you still have to know if you are moving in the right direction.</p>
 
+<!--
+Analogy to the orbit. It's easier to course correct if you are going slower
+-->
+
 ---
 
 # Model, agent, skill
@@ -165,6 +169,9 @@ introImage: 'https://iratxegarrido.github.io/assets/img/iratxe.jpeg'
   MODEL <span class="mx-3 font-normal text-gray-400">powers</span> AGENT <span class="mx-3 font-normal text-gray-400">uses</span> SKILL
 </p>
 
+<!--
+HW, OS, App
+-->
 
 ---
 class: beat-divider

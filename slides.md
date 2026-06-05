@@ -632,7 +632,7 @@ class: code-cta
   <div class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
     <div class="flex items-center gap-4">
       <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-white/80 overflow-hidden">
-        <img :src="'/iratxe-pp.jpg'" alt="Iratxe Garrido profile picture" class="h-16 w-16 object-cover" />
+        <img :src="'/opentowork.jpeg'" alt="Iratxe Garrido profile picture" class="h-16 w-16 object-cover" />
       </div>
       <div>
         <p class="!mb-1 text-xs font-bold uppercase tracking-widest text-fuchsia-600">LinkedIn</p>

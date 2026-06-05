@@ -63,7 +63,7 @@ class: dda-cover
 
 ---
 layout: intro
-introImage: 'public/opentowork.jpeg'
+introImage: '/pp-github.jpeg'
 ---
 
 
@@ -604,55 +604,67 @@ class: code-cta
 <p class="mt-2 text-lg text-purple-900">Find me, follow the work, join the community.</p>
 
 <div class="mt-6 grid grid-cols-2 gap-4">
-  <div class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-    <div class="flex items-center gap-4">
-      <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-white/80">
-        <img :src="'/wnb-rb-logo.svg'" alt="WNB.rb logo" class="h-12 w-12 object-contain" />
-      </div>
-      <div>
-        <p class="!mb-1 text-xs font-bold uppercase tracking-widest text-fuchsia-600">Community</p>
-        <p class="!mb-1 text-base font-bold text-purple-900">WNB.rb</p>
-        <p class="!mb-0 text-xs"><a href="https://www.wnb-rb.dev/" target="_blank" class="text-fuchsia-700 hover:text-fuchsia-900">wnb-rb.dev</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-    <div class="flex items-center gap-4">
-      <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-white/80">
-        <img :src="'/duck-dating-apps-icon.png'" alt="Duck Dating Apps logo" class="h-12 w-12 object-contain" />
-      </div>
-      <div>
-        <p class="!mb-1 text-xs font-bold uppercase tracking-widest text-fuchsia-600">Product</p>
-        <p class="!mb-1 text-base font-bold text-purple-900">Duck Dating Apps</p>
-        <p class="!mb-1 text-xs"><a href="https://www.duckdatingapps.com/" target="_blank" class="text-fuchsia-700 hover:text-fuchsia-900">duckdatingapps.com</a></p>
-        <p class="!mb-0 text-xs"><a href="https://www.instagram.com/duck.dating.apps" target="_blank" class="text-fuchsia-700 hover:text-fuchsia-900">instagram.com/duck.dating.apps</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-    <div class="flex items-center gap-4">
+  <div class="h-36 rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
+    <div class="flex h-full items-center gap-4">
       <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-white/80 overflow-hidden">
         <img :src="'/opentowork.jpeg'" alt="Iratxe Garrido profile picture" class="h-16 w-16 object-cover" />
       </div>
       <div>
-        <p class="!mb-1 text-xs font-bold uppercase tracking-widest text-fuchsia-600">LinkedIn</p>
-        <p class="!mb-1 text-base font-bold text-purple-900">Iratxe Garrido</p>
-        <p class="!mb-0 text-xs"><a href="https://www.linkedin.com/in/iratxe-garrido/" target="_blank" class="text-fuchsia-700 hover:text-fuchsia-900">linkedin.com/in/iratxe-garrido</a></p>
+        <p class="!mb-1 text-xl font-bold text-purple-900">LinkedIn</p>
+        <p class="!mb-0 text-base"><a href="https://www.linkedin.com/in/iratxe-garrido/" target="_blank" class="text-fuchsia-700 hover:text-fuchsia-900">linkedin.com/in/iratxe-garrido</a></p>
       </div>
     </div>
   </div>
-  <div class="rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
-    <div class="flex items-center gap-4">
-      <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-white/80 overflow-hidden">
-        <img :src="'/pp-github.jpeg'" alt="GitHub profile picture" class="h-16 w-16 object-cover" />
+  <div class="h-36 rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
+    <div class="flex h-full items-center justify-between gap-4">
+      <div class="flex min-w-0 items-center gap-4">
+        <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-full bg-white/80 overflow-hidden">
+          <img :src="'/pp-github.jpeg'" alt="GitHub profile picture" class="h-16 w-16 object-cover" />
+        </div>
+        <div>
+          <p class="!mb-1 text-xl font-bold text-purple-900">Portfolio</p>
+          <p class="!mb-0 text-base"><a href="https://iratxegarrido.github.io/" target="_blank" class="text-fuchsia-700 hover:text-fuchsia-900">iratxegarrido.github.io</a></p>
+        </div>
+      </div>
+      <div class="flex h-30 w-30 shrink-0 items-center justify-center rounded-xl border border-fuchsia-200 bg-white p-1">
+        <img :src="'/portfolio-qr.svg'" alt="QR code linking to iratxegarrido.github.io" class="h-full w-full object-contain" />
+      </div>
+    </div>
+  </div>
+  <div class="h-36 rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
+    <div class="flex h-full items-center gap-4">
+      <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-white/80">
+        <img :src="'/wnb-rb-logo.svg'" alt="WNB.rb logo" class="h-12 w-12 object-contain" />
       </div>
       <div>
-        <p class="!mb-1 text-xs font-bold uppercase tracking-widest text-fuchsia-600">GitHub</p>
-        <p class="!mb-1 text-base font-bold text-purple-900">IratxeGarrido</p>
-        <p class="!mb-0 text-xs"><a href="https://github.com/IratxeGarrido" target="_blank" class="text-fuchsia-700 hover:text-fuchsia-900">github.com/IratxeGarrido</a></p>
+        <p class="!mb-1 text-xl font-bold text-purple-900">WNB.rb</p>
+        <p class="!mb-0 text-base"><a href="https://www.wnb-rb.dev/" target="_blank" class="text-fuchsia-700 hover:text-fuchsia-900">wnb-rb.dev</a></p>
       </div>
     </div>
   </div>
+  <div class="h-36 rounded-2xl border-2 border-fuchsia-300 bg-fuchsia-50 p-5">
+    <div class="flex h-full items-center gap-4">
+      <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-white/80">
+        <img :src="'/duck-dating-apps-icon.png'" alt="Duck Dating Apps logo" class="h-12 w-12 object-contain" />
+      </div>
+      <div>
+        <p class="!mb-1 text-xl font-bold text-purple-900">Duck Dating Apps</p>
+        <p class="!mb-1 flex items-center gap-1.5 text-base">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 shrink-0 fill-fuchsia-700">
+            <path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20Zm6.93 9a8.02 8.02 0 0 0-1.74-4.11A13.22 13.22 0 0 1 14.94 8c.23.94.38 1.95.43 3h3.56Zm-5.57 0a17.32 17.32 0 0 0-.55-3.02A9.89 9.89 0 0 1 12 8.02c-.29 0-.56-.01-.81-.04A17.32 17.32 0 0 0 10.64 11h2.72Zm-4.73 0c.05-1.05.2-2.06.43-3a13.22 13.22 0 0 1-2.25-1.11A8.02 8.02 0 0 0 5.07 11h3.56Zm-3.56 2a8.02 8.02 0 0 0 1.74 4.11A13.22 13.22 0 0 1 9.06 16a17.6 17.6 0 0 1-.43-3H5.07Zm5.57 0c.05 1.1.23 2.13.55 3.02.25-.03.52-.04.81-.04s.56.01.81.04c.32-.89.5-1.92.55-3.02h-2.72Zm4.73 0a17.6 17.6 0 0 1-.43 3 13.22 13.22 0 0 1 2.25 1.11A8.02 8.02 0 0 0 18.93 13h-3.56ZM8.2 5.44c.48.24 1 .44 1.55.6.22-.54.47-1.03.75-1.46-.83.16-1.6.45-2.3.86Zm5.3-.86c.28.43.53.92.75 1.46.55-.16 1.07-.36 1.55-.6-.7-.41-1.47-.7-2.3-.86Zm2.3 13.98c-.48-.24-1-.44-1.55-.6-.22.54-.47 1.03-.75 1.46.83-.16 1.6-.45 2.3-.86Zm-5.3.86c-.28-.43-.53-.92-.75-1.46-.55.16-1.07.36-1.55.6.7.41 1.47.7 2.3.86Z" />
+          </svg>
+          <a href="https://app.duckdatingapps.com/" target="_blank" class="text-fuchsia-700 hover:text-fuchsia-900">app.duckdatingapps.com</a>
+        </p>
+        <p class="!mb-0 flex items-center gap-1.5 text-base">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 shrink-0 fill-fuchsia-700">
+            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm5.25-3.25a1 1 0 1 1 0 2.01 1 1 0 0 1 0-2.01Z" />
+          </svg>
+          <a href="https://www.instagram.com/duck.dating.apps" target="_blank" class="text-fuchsia-700 hover:text-fuchsia-900">@duck.dating.apps</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  
 </div>
 
-<p class="mt-6 text-center text-sm font-semibold italic text-fuchsia-700">Thank you 💜</p>
+<p class="mt-6 text-center text-sm font-semibold italic text-fuchsia-700">Thank you 💜 Any Questions?</p>

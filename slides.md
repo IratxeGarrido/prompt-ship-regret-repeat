@@ -63,7 +63,7 @@ class: dda-cover
 
 ---
 layout: intro
-introImage: 'https://iratxegarrido.github.io/assets/img/iratxe.jpeg'
+introImage: 'public/opentowork.jpeg'
 ---
 
 

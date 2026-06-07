@@ -79,13 +79,14 @@ introImage: '/pp-github.jpeg'
     <p class="!mb-1 text-sm font-semibold text-fuchsia-700">Technical co-founder</p>
     <p class="!mb-0 text-sm text-gray-600">Security engineer turned software developer</p>
   </div>
-  <p class="!mb-0 border-l-4 border-fuchsia-500 pl-3 text-sm font-semibold text-purple-900">Not senior. Not front-end. Shipping a real product anyway.</p>
   <div class="flex flex-wrap gap-2">
-    <span class="rounded-full bg-fuchsia-100 px-3 py-1 text-xs font-semibold text-fuchsia-800">WNB.rb orga</span>
+    <span class="rounded-full bg-fuchsia-100 px-3 py-1 text-xs font-semibold text-fuchsia-800">WNB.rb Discord Manager</span>
     <span class="rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-800">Neurospicy🌶️</span>
     <span class="rounded-full bg-fuchsia-100 px-3 py-1 text-xs font-semibold text-fuchsia-800">Polyamorous🩵</span>
     <span class="rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-800">Sports junkie🧗🏼‍♀️</span>
     <span class="rounded-full bg-fuchsia-100 px-3 py-1 text-xs font-semibold text-fuchsia-800">Cat lover😻</span>
+    <span class="rounded-full bg-purple-100 px-3 py-1 text-xs font-semibold text-purple-800">Queer🏳️‍🌈</span>
+
   </div>
 </div>
 
